@@ -1,0 +1,29 @@
+[
+  {
+    "sentiment": "Neutral",
+    "topics": [
+      "Product",
+      "Delivery"
+    ],
+    "score": 5,
+    "summary": "Thích dầu gội và sẽ mua thường xuyên nhưng giao hàng lâu"
+  },
+  {
+    "sentiment": "Negative",
+    "topics": [
+      "Product",
+      "Delivery"
+    ],
+    "score": 1,
+    "summary": "Điện thoại không phù hợp, không hài lòng và giao hàng lâu"
+  },
+  {
+    "sentiment": "Neutral",
+    "topics": [
+      "Product",
+      "Delivery"
+    ],
+    "score": 3,
+    "summary": "Máy tính không đủ đẳng cấp nhưng giao hàng nhanh"
+  }
+]
