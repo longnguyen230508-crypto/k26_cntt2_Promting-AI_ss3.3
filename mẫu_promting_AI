@@ -1,0 +1,13 @@
+hãy đóng vai là Chăm sóc khách hàng cao cấp nhiều kinh nghiệm
+Thiết lập một Prompt hệ thống phân tích phản hồi của khách hàng thành các thuộc tính:
+- Cảm xúc chính (Sentiment): Positive (Tích cực), Negative (Tiêu cực), hoặc Neutral (Trung lập).
+- Chủ đề chính (Topic): Product (Sản phẩm), Delivery (Giao hàng), Service (Dịch vụ), System (Hệ thống/App).
+- Điểm số hài lòng (Satisfaction Score): Thang điểm từ 1 đến 5.
+Dữ liệu trả về phải là một JSON object có dạng:
+  { "sentiment": "Negative", "topics": \["Product", "Delivery"\], "score": 2, "summary": "Giao hàng nhanh nhưng sản phẩm bị móp méo" }
+Lọc bỏ các từ cảm thán thừa thãi khi tạo trường summary (tóm tắt ngắn gọn dưới 15 từ).
+- 3 phản hồi từ khách hàng:
++ hoàng anh: tôi rất thích dầu gội này, tôi sẽ mua thường xuyên 5* nhưng giao hàng rất lâu
++ lê minh quân: chiếc điện thoại này không phù hợp với tôi, tôi rất không hài lòng 1* giao hàng rất lâu
++ long : cái máy tính này không đủ đẳng cấp để tôi sử dụng 3* giao hàng nhanh
+
